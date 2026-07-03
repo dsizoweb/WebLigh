@@ -1,0 +1,59 @@
+#botonfondo{
+   cursor: pointer;
+padding: 13px 30px;
+border-radius: 1rem;
+border: none;
+margin: 20px;
+background-color: white;
+  color: rgb(16, 33, 53);
+   
+   font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: normal;
+}
+body{
+  background-color:rgb(241, 241, 241) ;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  transition: background-color 0.3s ease;
+}
+body.fondo-cambiado{
+    background-color: rgb(16, 33, 53);
+}
+
+
+h1{
+ font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+#principal{
+    color: rgb(255, 255, 255);
+background-color: rgb(46, 189, 255);
+box-shadow: 5px 5px 0px rgb(16, 33, 53);
+
+padding: 20px;
+border-radius: 1rem;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+flex-wrap: wrap;
+
+transition: color 0.3s ease;
+}
+#principal.h1-cambiado{
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 0px rgb(233, 233, 233);
+}
